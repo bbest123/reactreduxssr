@@ -1,0 +1,10 @@
+{
+  "shopInfo": {
+    "desktop": {
+      "serverUrl": ""
+    },
+    "mobile": {
+      "serverUrl": ""
+    }
+  }
+}

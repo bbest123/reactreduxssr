@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta mane="description" content="shop"/>
+    <title>React + Redux + SSR boiler plate</title>
+</head>
+<body id='container'>
+<div id="app">
+    <div><%- html %></div>
+</div>
+<script>
+    window.__INITIAL_STATE__ = <%- initialState %>
+</script>
+<script src="/static/bundle.js"></script>
+</body>
+</html>

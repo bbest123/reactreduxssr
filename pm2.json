@@ -1,0 +1,21 @@
+{
+  "apps": [
+    {
+      "name": "reactredux",
+      "script": "server/index.js",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "args": "--max-old-space-size=4076",
+      "node_args": "--max-old-space-size=4076",
+      "instances": 3,
+      "exec_mode": "cluster",
+      "max_memory_restart": "4G",
+      "merge_logs": true,
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "log_file": "./logs/combinedLog.log",
+      "out_file": "/dev/null",
+      "error_file": "./logs/err.log"
+    }
+  ]
+}
