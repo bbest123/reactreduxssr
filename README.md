@@ -9,7 +9,8 @@ This is a boilerplate code for React + Redux + SSR integration
     npm run start - To start the application in non dev mode
     npm run pm2Start - To start the application using pm2 (uses pm2.json for cluster configuration)
     npm run pm2Stop - To stop the application started using pm2
-
+## Accessing the application
+    After running the npm run command open the browser and go to http://locahost:3080/index to view the sample index page
 ## API Documentation
 
 ## Roadmap
